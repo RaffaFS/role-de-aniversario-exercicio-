@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rolê de Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
     <header class="hero">
         <div class="hero__container">
-            <img src="img/feliz-vuelta-al-sol.png" alt="">
+            <img src="img/vuelta-sol.png" alt="feliz vuelta al sol">
             <p>Você está convidado(a) para o "Rolê de Aniversário" que acontecerá em <span id="contador"></span></p>
-            <div class="hero__container__info">
-                <ul>
-                    <li>
+            <div class="hero__container__infos">
+                <ul class="info">
+                    <li class="info__item">
                         <b>Onde</b>
                         Sítio do vô Juarez
                     </li>
-                    <li>
+                    <li class="info__item">
                         <b>Quando</b>
                         31/01/2025 às 10hrs
                     </li>
-                    <li>
+                    <li class="info__item">
                         <b>Confirmar até</b>
                         30/11/2024
                     </li>
                 </ul>
-                <a class="hero__container__info__btn" href="#">Confirmar presença</a>
+                <a class="btn" href="#">Confirmar presença!</a>
             </div>
         </div>
     </header>
@@ -74,4 +78,6 @@
         <a class="rodape__btn" href="#">Confirmar presença</a>
     </footer>
 </body>
+
+<script src="scripts/main.js"></script>
 </html>

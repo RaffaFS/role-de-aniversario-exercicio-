@@ -1,0 +1,11 @@
+@use 'hero.scss';
+@use 'detalhes.scss';
+@use 'rodape.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+}
