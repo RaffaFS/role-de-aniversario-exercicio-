@@ -1,0 +1,38 @@
+.detalhes{
+    background-color: #19150e;
+    padding-top: 12vh;
+
+    &__container{
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+
+        &__section{
+            display: flex;
+            gap: 8vw;
+            margin-bottom: 16vh;
+            align-items: center;
+
+            &--img-esquerda{
+                flex-direction: row-reverse;
+            }
+
+            &__texto{
+                text-align: center;
+
+                h2{
+                    font-size: 32px;
+                }
+
+                p{
+                    font-size: 24px;
+                }
+            }
+
+            img{
+                max-width: 480px;
+                width: 100%;
+            }
+        }
+    }
+}
