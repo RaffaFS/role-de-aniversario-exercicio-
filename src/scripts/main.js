@@ -1,3 +1,5 @@
+AOS.init();
+
 const dataAniversario = new Date("Jan 31, 2025 10:00:00");
 const timeStampAniversario = dataAniversario.getTime();
 
