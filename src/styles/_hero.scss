@@ -32,7 +32,7 @@
             width: 80%;
         }
 
-        img{
+        .img1{
             height: 256px;
             display: block;
             margin: 0 auto;
@@ -106,6 +106,16 @@
                         display: block;
                     }
                 }
+            }
+        }
+
+        .img2{
+            height: 40px;
+            display: block;
+            margin: 0 auto;
+
+            @media (max-width: 768px){
+                height: 32px;
             }
         }
     }
