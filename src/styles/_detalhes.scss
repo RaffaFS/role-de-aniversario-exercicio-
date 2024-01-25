@@ -1,17 +1,30 @@
 .detalhes{
     background-color: #19150e;
-    padding-top: 12vh;
+    padding-top: 8vh;
 
     &__container{
         max-width: 1280px;
         width: 100%;
         margin: 0 auto;
 
+        @media (max-width: 1024px){
+            width: 90%;
+        }
+
+        @media (max-width: 768px){
+            width: 80%;
+        }
+
         &__section{
             display: flex;
             gap: 8vw;
             margin-bottom: 16vh;
             align-items: center;
+
+            @media (max-width: 768px){
+                display: block;
+                text-align: center;
+            }
 
             &--img-esquerda{
                 flex-direction: row-reverse;
@@ -20,18 +33,34 @@
             &__texto{
                 text-align: center;
 
+                @media (max-width: 768px){
+                    margin-bottom: 2vh;
+                }
+
                 h2{
                     font-size: 32px;
+
+                    @media (max-width: 768px){
+                        font-size: 24px;
+                    }
                 }
 
                 p{
                     font-size: 24px;
+
+                    @media (max-width: 768px){
+                        font-size: 16px;
+                    }
                 }
             }
 
             img{
                 max-width: 480px;
                 width: 100%;
+                
+                @media (max-width: 768px){
+                    
+                }
             }
         }
     }

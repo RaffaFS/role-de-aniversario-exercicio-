@@ -31,6 +31,14 @@
         margin-bottom: 8vh;
         background-color: #fff;
 
+        @media (max-width: 1024px){
+            width: 90%;
+        }
+
+        @media (max-width: 768px){
+            width: 80%;
+        }
+
         &__chamada{
             margin-top: 4vh;
             font-weight: 700;
