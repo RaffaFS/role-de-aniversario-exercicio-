@@ -10,3 +10,17 @@
     font-family: 'Jost', sans-serif;
     overflow-x: hidden;
 }
+
+a{
+    background-color: #19150e;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+    border: #19150e solid 1px;
+
+    &:hover{
+        background-color: #29150e;
+        border: #fff solid 1px;
+    }
+}

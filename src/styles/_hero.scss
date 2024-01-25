@@ -10,7 +10,7 @@
     &::before{
         position: absolute;
         background-image: linear-gradient(0deg, #19150e, transparent);
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, .6);
         content: '';
         width: 100%;
         height: 100%;
@@ -37,7 +37,7 @@
             font-family: 'Permanent Marker', cursive;
         }
 
-        &__infos{
+        &__barra{
             margin-top: 4vh;
             display: flex;
             justify-content: space-between;
@@ -59,20 +59,6 @@
                         color: #000;
                         display: block;
                     }
-                }
-            }
-
-            .btn{
-                background-color: #19150e;
-                padding: 12px 16px;
-                text-decoration: none;
-                font-weight: 700;
-                border-radius: 8px;
-                border: #19150e solid 1px;
-
-                &:hover{
-                    background-color: #29150e;
-                    border: #fff solid 1px;
                 }
             }
         }
