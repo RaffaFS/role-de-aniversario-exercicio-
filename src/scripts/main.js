@@ -25,4 +25,4 @@ const contaTempo = setInterval(function(){
         clearInterval(contaTempo);
         document.getElementById('contador').innerHTML = 'Data expirada.';
     }
-}, 1000)
+}, 1000);
